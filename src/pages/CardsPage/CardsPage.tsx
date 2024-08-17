@@ -19,10 +19,6 @@ const mockData = [
 ];
 
 const CardsPage: React.FC = () => {
-  const [cards, setCards] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-}
-const CardsPage: React.FC = () => {
   return (
     <div className="cards-page">
       {mockData.map((data, index) => (
